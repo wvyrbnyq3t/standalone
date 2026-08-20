@@ -1,0 +1,142 @@
+/* align items */
+.u-align--start {
+  align-items: flex-start;
+}
+.u-align--center {
+  align-items: center;
+}
+.u-align--end {
+  align-items: flex-end;
+}
+.u-align--baseline {
+  align-items: baseline;
+}
+
+/* justify content */
+.u-justify--center {
+  justify-content: center;
+}
+.u-justify--start {
+  justify-content: flex-start;
+}
+.u-justify--end {
+  justify-content: flex-end;
+}
+
+/* font size */
+.u-fs--xs {
+  font-size: 0.8em;
+}
+.u-fs--sm {
+  font-size: 0.9em;
+}
+.u-fs--lg {
+  font-size: 1.2em;
+}
+.u-fs--xl {
+  font-size: 1.375em;
+}
+
+/* font weight */
+.u-fw--light {
+  font-weight: 300;
+}
+.u-fw--normal {
+  font-weight: 400;
+}
+.u-fw--bold {
+  font-weight: 700;
+}
+
+/* margin */
+.u-mrgn-top--auto {
+  margin-top: auto;
+}
+.u-mrgn-right--auto {
+  margin-right: auto;
+}
+.u-mrgn-bottom--auto {
+  margin-bottom: auto;
+}
+.u-mrgn-left--auto {
+  margin-left: auto;
+}
+
+/* rounded */
+.u--rounded {
+  border-radius: 9999px;
+}
+
+/* padding */
+.u-pdng--xs {
+  padding: var(--spacing);
+}
+.u-pdng--sm {
+  padding: calc(var(--spacing) * 2);
+}
+.u-pdng--md {
+  padding: calc(var(--spacing) * 3);
+}
+.u-pdng--lg {
+  padding: calc(var(--spacing) * 4);
+}
+.u-pdng--xl {
+  padding: calc(var(--spacing) * 5);
+}
+
+.u-pdng-inline--xs {
+  padding-inline: var(--spacing);
+}
+.u-pdng-inline--sm {
+  padding-inline: calc(var(--spacing) * 2);
+}
+.u-pdng-inline--md {
+  padding-inline: calc(var(--spacing) * 3);
+}
+.u-pdng-inline--lg {
+  padding-inline: calc(var(--spacing) * 4);
+}
+.u-pdng-inline--xl {
+  padding-inline: calc(var(--spacing) * 5);
+}
+.u-pdng-block--xs {
+  padding-block: var(--spacing);
+}
+.u-pdng-block--sm {
+  padding-block: calc(var(--spacing) * 2);
+}
+.u-pdng-block--md {
+  padding-block: calc(var(--spacing) * 3);
+}
+.u-pdng-block--lg {
+  padding-block: calc(var(--spacing) * 4);
+}
+.u-pdng-block--xl {
+  padding-block: calc(var(--spacing) * 5);
+}
+
+/* width */
+.u-width--auto {
+  width: auto;
+}
+.u-width--fit {
+  width: fit-content;
+}
+.u-width--max {
+  width: max-content;
+}
+.u-width--min {
+  width: min-content;
+}
+.u-width--half {
+  width: 50%;
+}
+.u-width--full {
+  width: 100%;
+}
+
+@media (display-mode: standalone) {
+  .standalone {
+    display: none;
+  }
+}
